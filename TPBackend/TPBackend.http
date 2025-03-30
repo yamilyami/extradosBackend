@@ -1,0 +1,6 @@
+@TPBackend_HostAddress = http://localhost:5029
+
+GET {{TPBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

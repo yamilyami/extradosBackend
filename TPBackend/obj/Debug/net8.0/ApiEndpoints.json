@@ -1,0 +1,655 @@
+[
+  {
+    "ContainingType": "TPBackend.Controllers.CartaController",
+    "Method": "GetCartas",
+    "RelativePath": "Carta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.CartaController",
+    "Method": "CreateCarta",
+    "RelativePath": "Carta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nuevaCarta",
+        "Type": "TPBackend.Controllers.CartaController\u002BCarta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.CartaController",
+    "Method": "GetCartaById",
+    "RelativePath": "Carta/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.CartaController",
+    "Method": "UpdateCarta",
+    "RelativePath": "Carta/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cartaActualizada",
+        "Type": "TPBackend.Controllers.CartaController\u002BCarta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.CartaController",
+    "Method": "DeleteCarta",
+    "RelativePath": "Carta/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.JuegoController",
+    "Method": "CreateJuego",
+    "RelativePath": "Juego",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "juego",
+        "Type": "TPBackend.Controllers.JuegoController\u002BJuego",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.JuegoController",
+    "Method": "GetJuegos",
+    "RelativePath": "Juego",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.JuegoController",
+    "Method": "GetJuegoById",
+    "RelativePath": "Juego/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.JuegoController",
+    "Method": "UpdateJuego",
+    "RelativePath": "Juego/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "juego",
+        "Type": "TPBackend.Controllers.JuegoController\u002BJuego",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.JuegoController",
+    "Method": "DeleteJuego",
+    "RelativePath": "Juego/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.JuezController",
+    "Method": "CreateJuez",
+    "RelativePath": "Juez",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "juez",
+        "Type": "TPBackend.Controllers.JuezController\u002BJuez",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.JuezController",
+    "Method": "GetJueces",
+    "RelativePath": "Juez",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.JuezController",
+    "Method": "GetJuezById",
+    "RelativePath": "Juez/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.JuezController",
+    "Method": "UpdateJuez",
+    "RelativePath": "Juez/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "juez",
+        "Type": "TPBackend.Controllers.JuezController\u002BJuez",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.JuezController",
+    "Method": "DeleteJuez",
+    "RelativePath": "Juez/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.JugadorController",
+    "Method": "CreateJugador",
+    "RelativePath": "Jugador",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jugador",
+        "Type": "TPBackend.Controllers.JugadorController\u002BJugador",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.JugadorController",
+    "Method": "GetJugadores",
+    "RelativePath": "Jugador",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.JugadorController",
+    "Method": "GetJugadorById",
+    "RelativePath": "Jugador/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.JugadorController",
+    "Method": "UpdateJugador",
+    "RelativePath": "Jugador/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "jugador",
+        "Type": "TPBackend.Controllers.JugadorController\u002BJugador",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.JugadorController",
+    "Method": "DeleteJugador",
+    "RelativePath": "Jugador/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.OrganizadorController",
+    "Method": "CreateOrganizador",
+    "RelativePath": "Organizador",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizador",
+        "Type": "TPBackend.Controllers.OrganizadorController\u002BOrganizador",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.OrganizadorController",
+    "Method": "GetOrganizadores",
+    "RelativePath": "Organizador",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.OrganizadorController",
+    "Method": "GetOrganizadorById",
+    "RelativePath": "Organizador/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.OrganizadorController",
+    "Method": "UpdateOrganizador",
+    "RelativePath": "Organizador/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "organizador",
+        "Type": "TPBackend.Controllers.OrganizadorController\u002BOrganizador",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.OrganizadorController",
+    "Method": "DeleteOrganizador",
+    "RelativePath": "Organizador/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.SerieController",
+    "Method": "CreateSerie",
+    "RelativePath": "Serie",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "serie",
+        "Type": "TPBackend.Controllers.SerieController\u002BSerie",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.SerieController",
+    "Method": "GetSeries",
+    "RelativePath": "Serie",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.SerieController",
+    "Method": "GetSerieById",
+    "RelativePath": "Serie/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.SerieController",
+    "Method": "UpdateSerie",
+    "RelativePath": "Serie/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "serie",
+        "Type": "TPBackend.Controllers.SerieController\u002BSerie",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.SerieController",
+    "Method": "DeleteSerie",
+    "RelativePath": "Serie/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.TorneoController",
+    "Method": "CreateTorneo",
+    "RelativePath": "Torneo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "torneo",
+        "Type": "TPBackend.Controllers.TorneoController\u002BTorneo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.TorneoController",
+    "Method": "GetTorneos",
+    "RelativePath": "Torneo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.TorneoController",
+    "Method": "GetTorneoById",
+    "RelativePath": "Torneo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.TorneoController",
+    "Method": "UpdateTorneo",
+    "RelativePath": "Torneo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "torneo",
+        "Type": "TPBackend.Controllers.TorneoController\u002BTorneo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.TorneoController",
+    "Method": "DeleteTorneo",
+    "RelativePath": "Torneo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.UsuarioController",
+    "Method": "CreateUsuario",
+    "RelativePath": "Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "TPBackend.Controllers.UsuarioController\u002BUsuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.UsuarioController",
+    "Method": "GetUsuarios",
+    "RelativePath": "Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.UsuarioController",
+    "Method": "GetUsuarioById",
+    "RelativePath": "Usuario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.UsuarioController",
+    "Method": "UpdateUsuario",
+    "RelativePath": "Usuario/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "usuario",
+        "Type": "TPBackend.Controllers.UsuarioController\u002BUsuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.UsuarioController",
+    "Method": "DeleteUsuario",
+    "RelativePath": "Usuario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TPBackend.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TPBackend.WeatherForecast, TPBackend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
