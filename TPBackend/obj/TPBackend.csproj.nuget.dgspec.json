@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fidel\\source\\repos\\TPBackend\\TPBackend\\TPBackend.csproj": {}
+    "C:\\Users\\fidel\\source\\repos\\extrados2024\\TPBackend\\TPBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fidel\\source\\repos\\TPBackend\\TPBackend\\TPBackend.csproj": {
+    "C:\\Users\\fidel\\source\\repos\\extrados2024\\TPBackend\\TPBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fidel\\source\\repos\\TPBackend\\TPBackend\\TPBackend.csproj",
+        "projectUniqueName": "C:\\Users\\fidel\\source\\repos\\extrados2024\\TPBackend\\TPBackend.csproj",
         "projectName": "TPBackend",
-        "projectPath": "C:\\Users\\fidel\\source\\repos\\TPBackend\\TPBackend\\TPBackend.csproj",
+        "projectPath": "C:\\Users\\fidel\\source\\repos\\extrados2024\\TPBackend\\TPBackend.csproj",
         "packagesPath": "C:\\Users\\fidel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fidel\\source\\repos\\TPBackend\\TPBackend\\obj\\",
+        "outputPath": "C:\\Users\\fidel\\source\\repos\\extrados2024\\TPBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
